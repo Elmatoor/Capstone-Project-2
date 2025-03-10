@@ -1,5 +1,6 @@
 body {
   background-color: #578fca;
+  margin: 0;
 }
 
 .top-container {
@@ -7,6 +8,7 @@ body {
   background-color: #a1e3f9;
   height: 300px;
   justify-content: space-between;
+  border: solid;
 }
 
 img {
@@ -20,7 +22,18 @@ img {
   width: 200px;
 }
 
-#banner {
-  width: 2560px;
-  height: 400px;
+.cloud {
+  height: 70px;
+  width: 70px;
+}
+
+.middle-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+#profile {
+  border-radius: 50%;
+  border: solid;
 }
