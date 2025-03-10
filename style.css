@@ -1,0 +1,26 @@
+body {
+  background-color: #578fca;
+}
+
+.top-container {
+  display: flex;
+  background-color: #a1e3f9;
+  height: 300px;
+  justify-content: space-between;
+}
+
+img {
+  height: 100px;
+  width: 100px;
+  align-self: center;
+}
+
+#phoenix {
+  height: 200px;
+  width: 200px;
+}
+
+#banner {
+  width: 2560px;
+  height: 400px;
+}
