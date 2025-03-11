@@ -75,7 +75,7 @@ h2 {
 
 p {
   margin: auto;
-  width: 20%;
+  width: 50%;
   margin-bottom: 20px;
 }
 
@@ -86,5 +86,9 @@ p {
 
   .clouds {
     display: none;
+  }
+
+  p {
+    width: 100%;
   }
 }
