@@ -43,12 +43,17 @@ img {
 }
 
 .middle-container {
-  justify-content: center;
   margin-top: 10px;
   width: 85%;
   background-color: #57b4ba;
   border-radius: 30px;
   border: solid;
+}
+
+.image-container {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 10px;
 }
 
 #profile-picture {
@@ -61,4 +66,5 @@ img {
 p {
   margin: auto;
   width: 20%;
+  margin-bottom: 20px;
 }
