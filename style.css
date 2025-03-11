@@ -63,8 +63,14 @@ img {
   border: solid;
 }
 
+h2 {
+  border-top: solid;
+  border-bottom: solid;
+}
+
 .text-container {
-  display: flex;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
 }
 
 p {
