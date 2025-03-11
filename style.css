@@ -63,6 +63,10 @@ img {
   border: solid;
 }
 
+.text-container {
+  display: flex;
+}
+
 p {
   margin: auto;
   width: 20%;
