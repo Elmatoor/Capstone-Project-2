@@ -1,14 +1,23 @@
 body {
-  background-color: #578fca;
+  background-color: #fdfbee;
   margin: 0;
+  text-align: center;
+}
+
+.top {
+  display: flex;
+  justify-content: center;
+  width: 100%;
 }
 
 .top-container {
   display: flex;
-  background-color: #a1e3f9;
+  width: 85%;
+  background-color: #57b4ba;
   height: 300px;
   justify-content: space-between;
   border: solid;
+  border-radius: 30px;
 }
 
 img {
@@ -27,13 +36,29 @@ img {
   width: 70px;
 }
 
-.middle-container {
+.middle {
   display: flex;
   justify-content: center;
-  margin-top: 10px;
+  margin-top: 25px;
 }
 
-#profile {
+.middle-container {
+  justify-content: center;
+  margin-top: 10px;
+  width: 85%;
+  background-color: #57b4ba;
+  border-radius: 30px;
+  border: solid;
+}
+
+#profile-picture {
+  height: 150px;
+  width: 150px;
   border-radius: 50%;
   border: solid;
+}
+
+p {
+  margin: auto;
+  width: 20%;
 }
