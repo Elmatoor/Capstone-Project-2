@@ -79,16 +79,36 @@ p {
   margin-bottom: 20px;
 }
 
+.other-projects {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.file-folder {
+  margin-right: 20px;
+}
+
 @media only screen and (max-width: 800px) {
   .cloud {
     display: none;
   }
 
-  .clouds {
+  .outer-stars {
     display: none;
   }
 
   p {
     width: 90%;
+  }
+
+  .other-projects {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .inner-stars {
+      display: none;
+    }
   }
 }
