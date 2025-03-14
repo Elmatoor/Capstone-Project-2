@@ -1,5 +1,5 @@
 body {
-  background-color: #fdfbee;
+  background-color: #fe4f2d;
   margin: 0;
   text-align: center;
 }
@@ -73,7 +73,7 @@ h2 {
   grid-template-rows: 1fr 1fr 1fr;
 }
 
-p {
+.text {
   margin: auto;
   width: 50%;
   margin-bottom: 20px;
@@ -88,6 +88,20 @@ p {
   margin-right: 20px;
 }
 
+.bottom-container {
+  height: 300px;
+  margin-top: 40px;
+  background-color: #57b4ba;
+  border: solid;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+
+.bottom-phoenix {
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+
 @media only screen and (max-width: 800px) {
   .cloud {
     display: none;
@@ -97,7 +111,7 @@ p {
     display: none;
   }
 
-  p {
+  .text {
     width: 90%;
   }
 
