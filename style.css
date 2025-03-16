@@ -1,5 +1,5 @@
 body {
-  background-color: #fe4f2d;
+  background-color: #336d82;
   margin: 0;
   text-align: center;
 }
@@ -13,7 +13,7 @@ body {
 .top-container {
   display: flex;
   width: 85%;
-  background-color: #57b4ba;
+  background-color: #5f99ae;
   height: 300px;
   justify-content: space-between;
   border: solid;
@@ -45,7 +45,7 @@ img {
 .middle-container {
   margin-top: 10px;
   width: 85%;
-  background-color: #57b4ba;
+  background-color: #5f99ae;
   border-radius: 30px;
   border: solid;
 }
@@ -91,7 +91,7 @@ h2 {
 .bottom-container {
   height: 300px;
   margin-top: 40px;
-  background-color: #57b4ba;
+  background-color: #5f99ae;
   border: solid;
   border-top-right-radius: 20px;
   border-top-left-radius: 20px;
