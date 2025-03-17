@@ -71,7 +71,6 @@ h2 {
 
 .text-container {
   display: grid;
-  grid-template-rows: 1fr 1fr 1fr;
 }
 
 .text {
